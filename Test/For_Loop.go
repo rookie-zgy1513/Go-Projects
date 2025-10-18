@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 
@@ -24,5 +27,6 @@ func main() {
 			continue
 		}
 		fmt.Println(n)
+		fmt.Println(math.Sin(float64(n)))
 	}
 }
